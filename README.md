@@ -27,3 +27,7 @@ $env:JAVA_HOME = 'C:\Program Files\Microsoft\jdk-21.0.9.10-hotspot'
 ## 后台行为
 
 Android 会限制应用在后台长期持有网络连接，因此当前版本只在应用前台保持 WebSocket；重新进入应用会立即重连并拉取列表。文件不会自动下载，必须由用户点击保存。
+
+## 许可证
+
+本项目采用 [MIT License](LICENSE)。
